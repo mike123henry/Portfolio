@@ -228,6 +228,9 @@ input[type=submit] {
 		padding-bottom: 15px;
 		margin-bottom: 15px;
 	}
+	h2, h3 {
+		font-size: 12px;
+	}
 	/*header*/
 	#logo {
 		width: 190px;
@@ -245,33 +248,42 @@ input[type=submit] {
 	}
 	/*sidebar*/
 
-.sidebar {
-	float: left;
-	margin-left: 30px;
-	max-width: 200px;
-}
-.sidebar h2 {
-	font-size: 15px;
-}
-.social {
-	width: 37px;
-	height: 37px;
-	margin-top: 8px;
-	margin-right: 5px;
-}
-/*footer*/
-footer {
-	background: #f00;
-	padding: 15px 0;
-	border-top: 6px solid #4aaaa5;
-	font-size: 8px;
-}
+	.sidebar {
+		float: left;
+		margin-left: 30px;
+		max-width: 200px;
 	}
-
-	@media only screen and (max-width: 768px) {
-
+	.sidebar h2 {
+		font-size: 15px;
 	}
-
-	@media only screen and (max-width: 640px) {
-
+	.social {
+		width: 37px;
+		height: 37px;
+		margin-top: 8px;
+		margin-right: 5px;
 	}
+	/*footer*/
+	footer {
+		background: #f00;
+		padding: 15px 0;
+		border-top: 6px solid #4aaaa5;
+		font-size: 8px;
+	}
+	/*portfolio page*/
+	.work {
+		width: 228px;
+		margin: 15px 0px;
+	}
+	.work h3 {
+		padding: 5px;
+		line-height: 20px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+
+}
