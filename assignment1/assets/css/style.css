@@ -213,13 +213,15 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+/*********************************/
 @media only screen and (max-width: 980px) {
 	body {
 		font-size: 12px;
 		line-height: 20px;
 	}
 
-	/*general*/
+	/*general 980px*/
 	.container {
 		max-width: 760px;
 	}
@@ -231,14 +233,18 @@ input[type=submit] {
 	h2, h3 {
 		font-size: 12px;
 	}
-	/*header*/
+
+	/*header 980px*/
+
 	#logo {
 		width: 190px;
 		height: 70px;
 		line-height: 65px;
 		font-size: 25px;
 	}
-	/*main*/
+
+	/*main 980px*/
+
 	#main-container {
 		padding-top: 100px;
 	}
@@ -246,7 +252,8 @@ input[type=submit] {
 		max-width: 260px;
 		padding: 15px;
 	}
-	/*sidebar*/
+
+	/*sidebar 980px*/
 
 	.sidebar {
 		float: left;
@@ -262,14 +269,14 @@ input[type=submit] {
 		margin-top: 8px;
 		margin-right: 5px;
 	}
-	/*footer*/
+	/*footer 980px*/
 	footer {
 		background: #f00;
 		padding: 15px 0;
 		border-top: 6px solid #4aaaa5;
 		font-size: 8px;
 	}
-	/*portfolio page*/
+	/*portfolio page 980px*/
 	.work {
 		width: 228px;
 		margin: 15px 0px;
@@ -280,10 +287,55 @@ input[type=submit] {
 	}
 }
 
+/***************************************/
 @media only screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	/*general 768px*/
+	.container {
+		max-width: 660px;
+	}
+	h1{
+		font-size: 16px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	h2, h3 {
+		font-size: 12px;
+	}
+
+	/*header 768px*/
+
+	#logo {
+		width: 190px;
+		height: 70px;
+		line-height: 65px;
+		font-size: 25px;
+	}
+
+	/*main 768px*/
+
+	.main-section {
+		max-width: 100%;
+	}
+
+.auth-image {
+	margin-right: 20px;
+}
+
+	/*sidebar 768px*/
+	.sidebar {
+		max-width: 100%;
+		padding: 15px;
+		margin-left: 0px;
+	}
 
 }
 
+/*****************************************/
 @media only screen and (max-width: 640px) {
 
 }
