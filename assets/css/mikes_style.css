@@ -27,3 +27,7 @@
   position: relative;
   margin: 2% 2%;
 }
+
+.gameName a{
+  color: #0000ff;
+}
