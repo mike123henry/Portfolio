@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW Hangman HW</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/darkly/bootstrap.min.css"
+</head>
+
+<body>
+<div class="jumbotron">
+  <h2 id="header1" class="text-center">Can you beat LA Lloyd's Rockcountdown at a game of classic Hangman</h2>
+  <!--http://www.rock30.com/LA_Lloyd_Rock_Countdown/Home_files/424948_3170826625217_1102037981_3205266_302600201_n.jpg-->
+  <div id='jumbotronSubHtml' class='text-center'>Do you dare??</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 test-left">
+      <p>Put you tube stuff here</p>
+      <!--<iframe width="175" height="98" src="https://www.youtube.com/embed/W0bAPXubHo4" frameborder="0" allowfullscreen></iframe>-->
+    </div>
+    <div class="col-md-5 text-center" id= "hangmanAreaHTML">
+      <h2 id="gameCmdHtml">Press space bar to start playing</h2>
+      <p id="line1Html">   0</p>
+      <p id="line2Html">>--|--<</p>
+      <p id="line3Html">  / \</p>
+      <br>
+      <h2 id="searchWordHtml"> ***** </h2>
+      <br>
+      <p id="unGuessedHtml"></p>
+      <p id="allGuessedHtml"></p>
+      <p id="guessesLeftHtml"></p>
+      <!--Put hangman stuff here -->
+    </div>
+    <div class="col-md-4 text-center" id="statsAreaHTML">
+      <h2>Statistics</h2>
+      <br><br>
+      <p id='gamesWonHtml'></p>
+      <p id='gamesLostHtml'></p>
+      <p id='percentGamesWonHtml'></p>
+      <p id='currentCorrectStreakHtml'></p>
+      <p id='longestCorrectStreakHtml'></p>
+      <p id='a'></p>
+      <p id='b'></p>
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src = "assets/javascript/game.js"></script>
+</body>
+</html>

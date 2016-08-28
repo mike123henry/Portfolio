@@ -1,0 +1,15 @@
+
+.btn{
+  background-color: lightblue;
+  color: red;
+  margin: 5px;
+  border: 2px solid green;
+}
+
+.gifDiv{
+  margin: 10px;
+  width: auto;
+}
+#deleteButton{
+  float: right;
+}

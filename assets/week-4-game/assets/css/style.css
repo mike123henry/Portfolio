@@ -1,0 +1,20 @@
+/*Expendable css Mike Henry*/
+/* debug code
+*{
+    border: 1px solid red !important
+}
+/*end debug code*/
+
+.title-img{
+  margin: 25px 0px;
+}
+.char_img{
+
+  border: 2px solid #00F;
+}
+
+#createbutton{
+  border: 5px solid #F00;
+  color: black;
+  background-color: white;
+}

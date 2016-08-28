@@ -1,0 +1,87 @@
+/*debug
+*{
+    border: 1px solid red !important
+}*
+/* end debug */
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    background-color: lightgreen;
+    color: black;
+    border-radius: 6px;
+    width: 75%;
+    margin: auto;
+}
+
+li {
+    font-weight: bolder;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    border-radius: 6px;
+    width: 75%;
+    margin: 10px auto;
+}
+li:hover{
+  border: 2px solid red;
+}
+body {
+    background-image: url("../images/lacoste1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+html{
+  height: 100%;
+}
+#resetButton{
+  width: auto;
+  height: auto;
+  border: 2px solid blue;
+  color: black;
+}
+#timerDisplay{
+  color:green;
+  font-size: 120px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#timerDisplay.shortTime{
+  color:red;
+  font-size: 120px;
+  font-family: monospace;
+  text-align: center;
+}
+#submitButton{
+  width: auto;
+  height: auto;
+  border: 2px solid blue;
+  color: black;
+}
+.winner{
+  color:green;
+  font-size: 200px;
+  font-family: monospace;
+  text-align: center;
+}
+.loser{
+  color:red;
+  font-size: 200px;
+  font-family: monospace;
+  text-align: center;
+}
+.wins{
+  font-weight: bold;
+  color:green;
+  font-size: 35px;
+}
+.lose{
+  font-weight: bold;
+  color:red;
+  font-size: 35px;
+}
+.unAns{
+  font-weight: bold;
+  color:black;
+  font-size: 35px;
+}
